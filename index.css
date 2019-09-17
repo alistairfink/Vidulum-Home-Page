@@ -11,7 +11,17 @@
 }
 
 .content-right {
+	display: flex;
+	max-width: 200px;
+}
 
+.test-carousel {
+	overflow:hidden;
+	padding-bottom: 50px;
+}
+
+.test-carousel > div {
+	width: 100%;
 }
 
 @media only screen 
@@ -23,6 +33,6 @@ and (max-width : 420px) {
 @media only screen 
 and (min-width : 421px) {
 	.content-box {
-		
+
 	}
 }
