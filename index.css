@@ -1,3 +1,28 @@
-.content-box {
-	
-} 
+.links {
+
+}
+
+.button {
+
+}
+
+.content-left {
+
+}
+
+.content-right {
+
+}
+
+@media only screen 
+and (max-width : 420px) {
+	.content-box {
+	} 
+}
+
+@media only screen 
+and (min-width : 421px) {
+	.content-box {
+		
+	}
+}
