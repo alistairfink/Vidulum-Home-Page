@@ -1,0 +1,1 @@
+window.onload=function(){$('.main-carousel').slick({dots:!0,infinite:!0,speed:300,slidesToShow:1,adaptiveHeight:!0,centerMode:!0,autoplay:!0,autoplaySpeed:3000,variableWidth:!0})}

@@ -7,7 +7,7 @@ window.onload = function() {
 		adaptiveHeight: true,
     	centerMode: true,
     	autoplay: true,
-    	autoplaySpeed: 6000,
+    	autoplaySpeed: 3000,
     	variableWidth: true
 	});
 };
