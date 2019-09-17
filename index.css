@@ -1,3 +1,7 @@
+body {
+	background-color: green;
+}
+
 .links {
 
 }
@@ -12,16 +16,20 @@
 
 .content-right {
 	display: flex;
-	max-width: 200px;
+	width: 500px;
+	padding: 20px;
 }
 
-.test-carousel {
-	overflow:hidden;
-	padding-bottom: 50px;
+.main-carousel {
+	overflow: hidden;
 }
 
-.test-carousel > div {
-	width: 100%;
+.carousel-div {
+	margin-right: 100px;
+}
+
+.carousel-img {
+	height: 200px;
 }
 
 @media only screen 

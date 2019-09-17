@@ -1,5 +1,5 @@
 window.onload = function() {
-	$('.test-carousel').slick({
+	$('.main-carousel').slick({
 		dots: true,
 		infinite: true,
 		speed: 300,
@@ -7,6 +7,7 @@ window.onload = function() {
 		adaptiveHeight: true,
     	centerMode: true,
     	autoplay: true,
-    	autoplaySpeed: 3000
+    	autoplaySpeed: 6000,
+    	variableWidth: true
 	});
 };
